@@ -1,0 +1,83 @@
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+label {
+  font-size: 20px;
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://www.pcworld.com/wp-content/uploads/2022/07/gmail-logo-header.jpg?resize=1240%2C697&quality=50&strip=all');
+}
+
+.container {
+  background-color: #f0e6e6;
+  padding: 32px 48px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: solid black 2px;
+  /* box-shadow: 8px 24px 0px rgb(240, 240, 241); */
+
+}
+
+.container>h1 {
+  margin-bottom: 20px;
+
+}
+
+.container>form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+.container input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+
+button {
+  background-color: purple;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#l1 {
+  margin-left: 30px;
+}
